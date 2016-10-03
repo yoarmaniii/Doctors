@@ -14,7 +14,7 @@ public class FamilyDoctor extends doctors {
 	
 	@Override
 	protected void treatPatient(){
-		System.out.println("Im a family doctor, I can give you advice?");
+		System.out.println("Im a family doctor, I can give you advice!");
 		
 	}
 	
