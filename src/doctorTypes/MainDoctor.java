@@ -7,12 +7,17 @@ public class MainDoctor {
 		System.out.println("Hello welcome, which doctor could I recommend for you?");
 		Scanner input = new Scanner(System.in);
 		input.nextLine();
-		doctors theFamilyDoctor = new doctors();
-		theFamilyDoctor.treatPatient();
 		
+		doctors d1 = new doctors();
+		FamilyDoctor famDoc= new FamilyDoctor();
+		d1.treatPatient();
+		famDoc.treatPatient();
 		
-		doctors theSurgeon = new doctors();
+		if(){
+		}
+		else{
+		Surgeon theSurgeon = new Surgeon();
 		theSurgeon.treatPatient();
 		}
 	}
-
+}
